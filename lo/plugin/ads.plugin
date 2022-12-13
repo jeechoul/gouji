@@ -5,10 +5,10 @@
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png
 
 [URL Rewrite]
-# 测网速 头条
+# P 测网速 头条
 ^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com - reject
 p3-be-pack-sign.pglstatp-toutiao.com/ad.union.api
-# 向日葵远控
+# O 向日葵远控
 ^https?:\/\/upload-cdn\.orayimg\.com - reject
 
 [MITM]
