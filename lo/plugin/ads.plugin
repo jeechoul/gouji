@@ -11,6 +11,6 @@
 
 # O 向日葵远控
 ^https?:\/\/upload-cdn\.orayimg\.com - reject
-
+https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN url reject-200
 [MITM]
-hostname = upload-cdn.orayimg.com, p3-be-pack-sign.pglstatp-toutiao.com
+hostname = upload-cdn.orayimg.com, p3-be-pack-sign.pglstatp-toutiao.com,client-api.oray.com
