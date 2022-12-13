@@ -1,14 +1,13 @@
 #!name=自用去广告
 #!desc=自用去广告合集 2022.12.12
-#!author=Jeechou
-#!homepage=https://raw.githubusercontent.com/jeechoul/gouji/main/lo/plugin/ads.plugin
+#!author=Github-keywos
+#!homepage=https://github.com/Keywos/loon-shadowrocket/blob/main/loon/163music.plugin
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/mini/Netease_Music.png
 [Rewrite]
 # 向日葵远控
 ^https?:\/\/upload-cdn\.orayimg\.com - reject
 # 测网速 头条
-^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api
+^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api - reject
 
 [MITM]
-hostname = upload-cdn.orayimg.com
-hostname = p3-be-pack-sign.pglstatp-toutiao.com
+hostname = upload-cdn.orayimg.com,p3-be-pack-sign.pglstatp-toutiao.com
