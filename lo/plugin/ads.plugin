@@ -6,8 +6,9 @@
 
 [URL Rewrite]
 # P 测网速 头条
+^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api - reject
 ^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com - reject
-p3-be-pack-sign.pglstatp-toutiao.com/ad.union.api
+
 # O 向日葵远控
 ^https?:\/\/upload-cdn\.orayimg\.com - reject
 
