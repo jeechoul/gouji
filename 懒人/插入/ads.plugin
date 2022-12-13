@@ -7,7 +7,7 @@
 # 向日葵远控
 ^https?:\/\/upload-cdn\.orayimg\.com - reject
 # 测网速 头条
-^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api
+^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api - reject
 
 [MITM]
 hostname = upload-cdn.orayimg.com
