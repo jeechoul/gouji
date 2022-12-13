@@ -10,4 +10,4 @@
 ^http:\/\/p3-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api - reject
 
 [MITM]
-hostname = upload-cdn.orayimg.com,p3-be-pack-sign.pglstatp-toutiao.com
+hostname = upload-cdn.orayimg.com, p3-be-pack-sign.pglstatp-toutiao.com
