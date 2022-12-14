@@ -1,0 +1,13 @@
+#!name=自用解锁合集
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/thunder.png
+#!homepage=https://github.com/deezertidal
+#!author=Cursefish
+
+[Script]
+
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/noto.js
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Pandora.js
+
+[MITM] 
+
+hostname = api.revenuecat.com,buy.itunes.apple.com
